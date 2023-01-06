@@ -1,8 +1,9 @@
-export function TranslateResults(func,funcParams, translation, error){
-    let result = func(...funcParams)
-    if(!translation[result]) error("No translation for result: " + result)
+export function TranslateResults(funcResult, translation, error){
+
     
-    return translation[result]
+    if(!translation[funcResult]) error(`No translation for result: ${String(funcResult)}`)
+    
+    return translation[funcResult]
 }
 
 export function PatternSplitting(string, pattern, type){
