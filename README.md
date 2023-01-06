@@ -23,7 +23,7 @@ Input:
 <br />
     Result of function,
 <br />
-    Translations ex. {1: "Win, 2: "Lose},
+    Translations ex. `{1: "Win, 2: "Lose}`,
 <br />
     Error callback
 <br />
@@ -31,4 +31,18 @@ Output:
 <br />
     Translated result
           <br />
+**Pattern Splitting**
+Split a string based on a pattern\
+`PatternSplitting(string, pattern, type)`\
+Input:
+<br />
+    String to split,
+<br />
+    Pattern ex. `["name", "age"]`,
+<br />
+    Splitting Type, only words is currently available
+<br />
+Output:
+<br />
+    Split Object ex. `{name: "TrackerJo", age: 100}`
     
