@@ -14,12 +14,21 @@ Implements useful features from haskell to javascript and typescript
 
 ### [+] Features
 **Pattern Matching**
-    Implements a simple form of haskell pattern matching into javascript. 
-    Pattern Matching in this is called Translate Results, where you will input the function results and a translation key and the function will return the translated result. 
-    Input:
-        Result of function,
-        Translations ex. {1: "Win, 2: "Lose},
-        Error callback
-    Output:
-        Translated result
-    `TranslateResults(funcResult, translation, error)`
+
+Implements a simple form of haskell pattern matching into javascript.\
+Pattern Matching in this is called Translate Results, where you will input the function results and a translation key and the function will return the translated result. 
+<br />
+`TranslateResults(funcResult, translation, error)`\
+Input:
+<br />
+    Result of function,
+<br />
+    Translations ex. {1: "Win, 2: "Lose},
+<br />
+    Error callback
+<br />
+Output:
+<br />
+    Translated result
+          <br />
+    
