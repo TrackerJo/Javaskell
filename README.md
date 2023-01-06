@@ -34,6 +34,7 @@ Output:
 **Pattern Splitting**
 
 Split a string based on a pattern\
+
 `PatternSplitting(string, pattern, type)`\
 Input:
 <br />
@@ -45,5 +46,14 @@ Input:
 <br />
 Output:
 <br />
-    Split Object ex. `{name: "TrackerJo", age: 100}`
+    Split Object ex. `{name: "TrackerJo", age: 100}`\
+Split Type: Words\
+Each word in the string to split is assigned a key based on the pattern\
+Example:\
+`let stringToSplit = "TrackerJo 100"`\
+ `let pattern = ["name","age]`\
+ `let type = "words"`\
+ `let result = PatternSplitting(stringToSplit, pattern, type) //Result would be {name: "TrackerJo", age: 100}`
+
+    
     
