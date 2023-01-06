@@ -49,11 +49,8 @@ Output:
     Split Object ex. `{name: "TrackerJo", age: 100}`\
 Split Type: Words\
 Each word in the string to split is assigned a key based on the pattern\
-Example:\
-`let stringToSplit = "TrackerJo 100"`\
- `let pattern = ["name","age]`\
- `let type = "words"`\
- `let result = PatternSplitting(stringToSplit, pattern, type) //Result would be {name: "TrackerJo", age: 100}`
-
-    
-    
+Example:
+```let stringToSplit = "TrackerJo 100"
+ let pattern = ["name","age]
+ let type = "words"
+ let result = PatternSplitting(stringToSplit, pattern, type) //Result would be {name: "TrackerJo", age: 100}
