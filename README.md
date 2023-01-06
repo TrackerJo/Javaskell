@@ -12,4 +12,5 @@
 ### [+] Description
 Implements useful features from haskell to javascript and typescript
 
-
+### [+] Features
+**Pattern Matching**
