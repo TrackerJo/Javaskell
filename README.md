@@ -1,6 +1,5 @@
 <h2 align="center"><u>Javaskell</u></h2>
 
-![For those who love haskell and javascript](images/banner.png)
 <h4 align="center"> For those who love haskell and javascript </h4>
 
 <p align="center">
