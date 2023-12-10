@@ -23,7 +23,7 @@ Input:
 <br />
     Result of function,
 <br />
-    Translations ex. `{1: "Win, 2: "Lose}`,
+    Translations ex. `{1: "Win", 2: "Lose"}`,
 <br />
     Error callback
 <br />
