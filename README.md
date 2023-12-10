@@ -33,7 +33,7 @@ Output:
           <br />
 **Pattern Splitting**
 
-Split a string based on a pattern\
+Split a string based on a pattern
 
 `PatternSplitting(string, pattern, type)`\
 Input:
